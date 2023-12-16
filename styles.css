@@ -1,0 +1,56 @@
+body{
+background: linear-gradient(#C3E2C2, #EAECCC, #DBCC95, #CD8D7A);
+height: 100%;
+}
+h1, h2{
+font-size: 7rem;
+font-weight: 700;
+font-family: 'Sacramento', cursive;
+}
+h3{
+font-size: 2rem;
+font-weight: 900;
+font-family: 'Open Sans', sans-serif;
+}
+h4{
+font-size: 3rem;
+font-weight: 700;
+font-family: 'Sacramento', cursive;
+}
+p{
+font-size: 1rem;
+font-weight: 900;
+font-family: 'Open Sans', sans-serif;
+}
+#heading-section{
+text-align: center;
+margin-top: 100px;
+}
+.container > h2{
+font-size: 3rem;
+}
+@media (max-width:430px){
+h1,h2{
+font-size: 5rem;
+font-weight: 700;
+font-family: 'Sacramento', cursive;
+}
+h3{
+font-size: 1rem;
+font-weight: 900;
+font-family: 'Open Sans', sans-serif;
+}
+h4{
+font-size: 2rem;
+font-weight: 700;
+font-family: 'Sacramento', cursive;
+}
+p{
+font-size: 0.75rem;
+font-weight: 900;
+font-family: 'Open Sans', sans-serif;
+}
+.contact-me{
+	margin: 10px;
+}
+}
